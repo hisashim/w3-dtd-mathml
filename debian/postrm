@@ -1,0 +1,20 @@
+#! /bin/sh
+# postrm script for w3-dtd-mathml
+
+set -e
+
+PACKAGE=w3-dtd-mathml
+
+if [ "$1" = disappear ]; then
+    if ! install-sgmlcatalog --quiet --remove $PACKAGE
+    then
+	echo "$0: install-sgmlcatalog failed
+  There may be $PACKAGE SGML entities left over in the SGML catalog.
+  Continuing anyway." 1>&2 
+    fi
+fi
+
+# automatically generated debhelper commands
+#DEBHELPER#
+
+exit 0

@@ -1,0 +1,23 @@
+Source: w3-dtd-mathml
+Section: text
+Priority: optional
+Maintainer: Mark Johnson <mrj@debian.org>
+Build-Depends: debhelper (>> 3.0.0)
+Standards-Version: 3.5.2
+
+Package: w3-dtd-mathml
+Architecture: all
+Depends: sgml-base (>= 1.07)
+Suggests: docbook-mathml
+Description: Mathematical Markup Language V2.0 DTD
+ The Mathematical Markup Language (MathML) V2.0 is an XML 
+ application for describing mathematical notation
+ and capturing both its structure and content.
+ The docbook-mathml package allows you to generate output 
+ documents from source files that use MathML markup.
+ .
+ Includes a prototype extension of the XHTML 1.1 DTD
+ that incorporates MathML 2.0.
+ .
+ Author: W3C Math Working Group <www-math@w3.org>
+ Homepage: http://www.w3.org/TR/MathML2/

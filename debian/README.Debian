@@ -1,0 +1,33 @@
+w3-dtd-mathml for Debian
+------------------------
+
+This is the Debian package for the Mathematical Markup Language
+(MathML) 2.0, an XML application for describing mathematical notation
+and capturing both its structure and content.
+
+- MathML V2.0 DTD
+
+  You can use this DTD indirectly via docbook-mathml, or directly by
+  using the following prolog in your document:
+
+  <?xml version="1.0" standalone="no"?>
+  <!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN"
+     "http://www.w3.org/TR/MathML2/dtd/mathml2.dtd">
+
+
+- XHTML plus Math 1.1 DTD
+
+  This is a prototype extension of XHTML 1.1 incorporating MathML 2.0.
+
+  Use the following prolog in your document:
+
+  <?xml version="1.0" standalone="no"?>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+     "http://www.w3.org/TR/MathML2/dtd/xhtml-math11-f.dtd">
+
+ 
+ -- Mark Johnson <mrj@debian.org>, Wed, 20 Jun 2001 23:24:58 -0400
+
+
+
+

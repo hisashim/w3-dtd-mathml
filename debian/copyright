@@ -1,0 +1,23 @@
+This package was debianized by Mark Johnson <mrj@debian.org> 
+on Wed, 20 Jun 2001 23:25:11 -0400
+
+
+It was downloaded from 
+  <http://www.w3.org/TR/MathML2/DTD-MathML-20010221.zip>.
+
+Upstream Author: W3C Math Working Group <www-math@w3.org>
+
+Copyright:
+
+Copyright 1998-2000 World Wide Web Consortium
+   (Massachusetts Institute of Technology, Institut National de
+    Recherche en Informatique et en Automatique, Keio University).
+    All Rights Reserved.
+
+Permission to use, copy, modify and distribute the XHTML 1.1 DTD and
+its accompanying documentation for any purpose and without fee is
+hereby granted in perpetuity, provided that the above copyright notice
+and this paragraph appear in all copies.  The copyright holders make
+no representation about the suitability of the DTD for any purpose.
+
+It is provided "as is" without expressed or implied warranty.

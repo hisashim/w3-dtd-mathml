@@ -1,0 +1,16 @@
+w3-dtd-mathml (2.0.0-1) unstable; urgency=low
+
+  * Applied patch to *.ent supplied in bug report.
+  *  (closes: #117477)
+
+ -- Mark Johnson <mrj@debian.org>  Tue, 18 Nov 2003 16:21:59 -0500
+
+w3-dtd-mathml (2.0-1) unstable; urgency=low
+
+  * Initial Release. Closes: bug#101658
+
+ -- Mark Johnson <mrj@debian.org>  Wed, 20 Jun 2001 23:25:38 -0400
+
+Local variables:
+mode: debian-changelog
+End:

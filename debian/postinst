@@ -1,0 +1,33 @@
+#! /bin/sh
+# postinst script for w3-dtd-mathml
+#
+#   jobs: install SGML catalogs
+
+set -e
+
+# TODO: this stuff should be dynamic out of rules
+DTDNAME=mathml
+PACKAGE=w3-dtd-mathml
+
+CENTRALCAT=/etc/sgml/${PACKAGE}.cat
+PKGDIR=/usr/share/sgml/dtd/w3/${DTDNAME}
+
+# ordinary catalogs, relative to PKGDIR
+ORDCATS="catalog"
+
+if [ "$1" = configure ]; then
+    # remove the old catalog
+    install-sgmlcatalog --quiet --remove $PACKAGE
+
+    # install the new one
+    for ordcat in ${ORDCATS}; do
+        update-catalog --quiet --add ${CENTRALCAT} ${PKGDIR}/${ordcat}
+    done
+    update-catalog --quiet --add --super ${CENTRALCAT}
+fi
+
+#DEBHELPER#
+
+exit 0
+
+
