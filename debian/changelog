@@ -1,4 +1,4 @@
-w3-dtd-mathml (2.0.0-2) unstable; urgency=low
+w3-dtd-mathml (2.0.0.0-1) unstable; urgency=low
 
   * Added xml catalog support.
   * Migrated installation to /usr/share/xml.
