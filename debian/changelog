@@ -1,3 +1,11 @@
+w3-dtd-mathml (2.0.0-2) unstable; urgency=low
+
+  * Added xml catalog support.
+  * Migrated installation to /usr/share/xml.
+  * Cleaned up build - use more debhelper tools.
+
+ -- Mark Johnson <mrj@debian.org>  Wed, 28 Jan 2004 20:45:18 -0500
+
 w3-dtd-mathml (2.0.0-1) unstable; urgency=low
 
   * Applied patch to *.ent supplied in bug report.
