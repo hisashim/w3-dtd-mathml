@@ -3,37 +3,9 @@
 # Maintainer: Mark Johnson <mrj@debian.org>
 
 #export DH_VERBOSE=1
-export DH_COMPAT=2
-
-# General Stuff
-pkg-type	:= dtd# [???]
-sgmldir		:= usr/share/sgml
-
-# DTD Stuff
-dtd-group	:= w3# [docbook|debiandoc|sgmltools|tei|html|jade| ... ]
-sgml-type	:= xml# [ xml | sgml ]
-dtd-name	:= mathml# [ package-subname]
-dtd-version	:= 2.0
-
-package		:= $(dtd-group)-$(pkg-type)-$(dtd-name)# w3-dtd-mathml
-
-prefix		:= debian/$(package)
-docdir		:= $(prefix)/usr/share/doc/$(package)
-
-#                = /usr/share/sgml/dtd/w3/mathml
-pkgdir		:= $(prefix)/$(sgmldir)/$(pkg-type)/$(dtd-group)/$(dtd-name)
-
-#                = /usr/share/sgml/dtd/w3/mathml/2.0
-dtddir		:= $(pkgdir)/$(dtd-version)
-
-# tool abstraction
-INSTALL_FILE	:= install -o root -g root -m 644 -p
-INSTALL_SCRIPT	:= install -o root -g root -m 755 -p
-MAKE_DIR	:= install -d -o root -g root -m 755
-COMPRESS	:= gzip -9f
 
 build: build-stamp
-# nothing to be done
+
 build-stamp:
 	dh_testdir
 	touch build-stamp
@@ -43,35 +15,30 @@ clean:
 	rm -f build-stamp
 	dh_clean
 
-binary-indep: build
+install: build
 	dh_testdir
 	dh_testroot
-#	install dtd files
-	$(MAKE_DIR) $(dtddir)
-	$(INSTALL_FILE) *.dtd  	$(dtddir)/
-	$(INSTALL_FILE) *.mod  	$(dtddir)/
-	$(INSTALL_FILE) *.ent  	$(dtddir)/
-#	install catalog
-	$(INSTALL_FILE) debian/catalog $(pkgdir)/catalog
+	dh_clean -k
+	dh_installdirs
 
-# finish up
+binary-indep: build install
 	dh_testdir
 	dh_testroot
+	dh_install
 	dh_installdocs
 	dh_installchangelogs
-#	dh_installexamples -i 
-	dh_compress -i
-	dh_fixperms -i
-	dh_installdeb -i
-	dh_gencontrol -i
-	dh_md5sums -i
-	dh_builddeb -i
+	dh_link
+	dh_installcatalogs
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
 
-# Build architecture-dependent files here.
-binary-arch: build
-# nothing to be done
+binary-arch: build install
 
 binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary
+.PHONY: build clean binary-indep binary-arch binary install
 
 

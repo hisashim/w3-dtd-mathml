@@ -1,21 +1,8 @@
 #! /bin/sh
 # prerm script for w3-dtd-mathml
-#
-# remove catalog entries
+# Maintainer: Mark Johnson <mrj@debian.org>
 
 set -e
-
-PACKAGE=w3-dtd-mathml
-CENTRALCAT=/etc/sgml/${PACKAGE}.cat
-
-
-if [ "$1" = remove ]; then
-    update-catalog --quiet --remove --super ${CENTRALCAT}
-elif [ "$1" = purge ]; then
-    rm -f ${CENTRALCAT} ${CENTRALCAT}.old
-    rm -rf /etc/sgml/${PACKAGE}
-fi
-
 
 #DEBHELPER#
 

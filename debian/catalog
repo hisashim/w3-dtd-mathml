@@ -1,9 +1,10 @@
+-- SGML catalog for w3-dtd-mathml --
 OVERRIDE YES
 
-PUBLIC "-//W3C//DTD MathML 2.0//EN"                      "2.0/mathml2.dtd"
-PUBLIC "-//W3C//DTD MathML//EN"                          "2.0/mathml2.dtd"
-SYSTEM "http://www.w3.org/TR/MathML2/dtd/mathml2.dtd"    "2.0/mathml2.dtd"
-PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"            "2.0/xhtml-math11-f.dtd"
-SYSTEM "http://www.w3.org/TR/MathML2/dtd/xhtml-math11-f.dtd"  "2.0/xhtml-math11-f.dtd"
+PUBLIC "-//W3C//DTD MathML 2.0//EN"                      "mathml2.dtd"
+PUBLIC "-//W3C//DTD MathML//EN"                          "mathml2.dtd"
+SYSTEM "http://www.w3.org/TR/MathML2/dtd/mathml2.dtd"    "mathml2.dtd"
+PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"       "xhtml-math11-f.dtd"
+SYSTEM "http://www.w3.org/TR/MathML2/dtd/xhtml-math11-f.dtd" "xhtml-math11-f.dtd"
 
 

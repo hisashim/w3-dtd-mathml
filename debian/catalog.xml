@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.0//EN"
+   "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+
+  <public publicId="-//W3C//DTD MathML 2.0//EN" uri="mathml2.dtd"/>
+
+  <public publicId="-//W3C//DTD MathML//EN" uri="mathml2.dtd"/>
+
+  <public publicId="-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+    uri="xhtml-math11-f.dtd"/>
+
+  <system systemId="http://www.w3.org/TR/MathML2/dtd/mathml2.dtd"
+    uri="mathml2.dtd"/>
+
+  <system systemId="http://www.w3.org/TR/MathML2/dtd/xhtml-math11-f.dtd"
+    uri="xhtml-math11-f.dtd"/>
+
+</catalog>

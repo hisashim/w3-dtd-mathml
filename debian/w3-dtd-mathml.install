@@ -1,0 +1,3 @@
+*.dtd	usr/share/xml/schema/w3c/mathml/dtd
+*.ent	usr/share/xml/schema/w3c/mathml/dtd
+*.mod	usr/share/xml/schema/w3c/mathml/dtd
