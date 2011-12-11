@@ -15,6 +15,9 @@
     uri="mathml2.dtd"/>
 
   <system systemId="http://www.w3.org/TR/MathML2/dtd/xhtml-math11-f.dtd"
+    uri="xhtml-math11-f.2000.dtd"/>
+
+  <system systemId="http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd"
     uri="xhtml-math11-f.dtd"/>
 
 </catalog>

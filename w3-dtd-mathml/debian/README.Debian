@@ -15,7 +15,7 @@ and capturing both its structure and content.
      "http://www.w3.org/TR/MathML2/dtd/mathml2.dtd">
 
 
-- XHTML plus Math 1.1 DTD
+- XHTML plus Math 1.1 DTD (2000)
 
   This is a prototype extension of XHTML 1.1 incorporating MathML 2.0.
 
@@ -29,6 +29,16 @@ and capturing both its structure and content.
  -- Mark Johnson <mrj@debian.org>, Wed, 28 Jan 2004 20:43:21 -0500
 
 
+- XHTML plus Math 1.1 DTD (2002)
+
+  This is a prototype extension of XHTML 1.1 incorporating MathML 2.0
+  and SVG 1.1.
+
+  Use the following prolog in your document:
+
+  <?xml version="1.0"?>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+     "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
 
 
-
+ -- Hisashi Morita <hisashim@workbook.org>, Sat, 10 Dec 2011 11:59:56 +0900
