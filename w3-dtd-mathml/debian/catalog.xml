@@ -11,6 +11,9 @@
   <public publicId="-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
     uri="xhtml-math11-f.dtd"/>
 
+  <public publicId="-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"
+    uri="xhtml-math-svg.dtd"/>
+
   <system systemId="http://www.w3.org/TR/MathML2/dtd/mathml2.dtd"
     uri="mathml2.dtd"/>
 
@@ -19,5 +22,8 @@
 
   <system systemId="http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd"
     uri="xhtml-math11-f.dtd"/>
+
+  <system systemId="http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd"
+    uri="xhtml-math-svg.dtd"/>
 
 </catalog>

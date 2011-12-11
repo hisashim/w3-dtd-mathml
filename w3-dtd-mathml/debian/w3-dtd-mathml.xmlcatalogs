@@ -3,3 +3,5 @@ root-and-package;public;-//W3C//DTD MathML;/usr/share/xml/schema/w3c/mathml/dtd/
 root-and-package;public;-//W3C//DTD XHTML 1.1 plus MathML;/usr/share/xml/schema/w3c/mathml/dtd/catalog.xml
 root-and-package;system;http://www.w3.org/TR/MathML2/dtd/;/usr/share/xml/schema/w3c/mathml/dtd/catalog.xml
 root-and-package;system;http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd;/usr/share/xml/schema/w3c/mathml/dtd/catalog.xml
+root-and-package;public;-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN;/usr/share/xml/schema/w3c/mathml/dtd/catalog.xml
+root-and-package;system;http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd;/usr/share/xml/schema/w3c/mathml/dtd/catalog.xml
