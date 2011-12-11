@@ -1,0 +1,30 @@
+README
+======
+
+Debian package w3m-dtd-mathml with non-maitainer updates.
+
+Changes
+-------
+  * Update XHTML plus Math 1.1 DTD from [2000 edition] [1] to [2002
+    edition] [2], which should fix [#355440] [3].
+  * Add [XHTML 1.1 plus MathML 2.0 plus SVG 1.1 DTD] [4], which should
+    fix [#645163] [5].
+
+See debian/README.Debian for usage.
+
+Source
+------
+Derived from [the official package source] [6] as of 2011-12-10.
+
+License
+-------
+All modifications are put under public domain.
+
+  [1]: http://www.w3.org/TR/MathML2/dtd/xhtml-math11-f.dtd
+  [2]: http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd
+  [3]: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=355440
+  [4]: http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd
+  [5]: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=645163
+  [6]: http://anonscm.debian.org/viewvc/debian-xml-sgml/packages/w3-dtd-mathml/
+
+-- Hisashi Morita
