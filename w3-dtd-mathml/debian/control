@@ -2,7 +2,7 @@ Source: w3-dtd-mathml
 Section: text
 Priority: optional
 Maintainer: Mark Johnson <mrj@debian.org>
-Build-Depends: debhelper (>> 4.0.0)
+Build-Depends: debhelper (>> 4.0.0), xml-core
 Standards-Version: 3.6.1.0
 
 Package: w3-dtd-mathml
