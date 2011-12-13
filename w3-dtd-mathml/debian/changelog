@@ -1,5 +1,6 @@
 w3-dtd-mathml (2.0.0.0-1+0hisashim1) unstable; urgency=low
 
+  * Update XHTML plus Math DTD to 2002 edition.
   * Added XHTML 1.1 plus MathML 2.0 plus SVG 1.1 DTD.
 
  -- Hisashi Morita <hisashim@workbook.org>  Sat, 10 Dec 2011 11:59:56 +0900
