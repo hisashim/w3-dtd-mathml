@@ -1,9 +1,11 @@
 Source: w3-dtd-mathml
 Section: text
 Priority: optional
-Maintainer: Mark Johnson <mrj@debian.org>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends: debhelper (>> 4.0.0)
-Standards-Version: 3.6.1.0
+Standards-Version: 3.9.2
+Homepage: http://www.w3.org/TR/MathML2/
+
 
 Package: w3-dtd-mathml
 Architecture: all
@@ -20,5 +22,3 @@ Description: Mathematical Markup Language V2.0 DTD
  that incorporates MathML 2.0.
  .
  Author: W3C Math Working Group <www-math@w3.org>
- .
- Homepage: http://www.w3.org/TR/MathML2/

@@ -1,3 +1,11 @@
+w3-dtd-mathml (2.0.0.0-2) unstable; urgency=low
+
+  * QA upload, set maintainer to Debian QA Group
+  * Add homepage entry (Closes: #615356)
+  * Switch to source format 3
+
+ -- Moritz Muehlenhoff <jmm@inutil.org>  Fri, 10 Jun 2011 13:52:53 +0200
+
 w3-dtd-mathml (2.0.0.0-1) unstable; urgency=low
 
   * Added xml catalog support.
